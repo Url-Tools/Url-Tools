@@ -5,7 +5,7 @@
   "scripts": {
     "build": "tsc -p .",
     "prepublish": "npm run build",
-    "publish": "np",
+    "np-publish": "np",
     "test": "jest"
   },
   "main": "./dist/index.js",
@@ -21,6 +21,10 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/Url-Tools/Url-Tools/issues"
+  },
+  "np": {
+    "yarn": false,
+    "contents": "dist"
   },
   "homepage": "https://github.com/Url-Tools/Url-Tools#readme",
   "devDependencies": {
