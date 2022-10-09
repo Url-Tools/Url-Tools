@@ -7,7 +7,7 @@
     "build": "tsc -p .",
     "prepublish": "npm run build",
     "publish": "np",
-    "test": "npm test"
+    "test": "jest"
   },
   "types": "dist/index.d.ts",
   "repository": {
