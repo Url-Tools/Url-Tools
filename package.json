@@ -1,0 +1,19 @@
+{
+  "name": "url-tools",
+  "version": "1.0.0",
+  "description": "A collection or url tools",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Url-Tools/Url-Tools.git"
+  },
+  "author": "JasonLandbridge",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Url-Tools/Url-Tools/issues"
+  },
+  "homepage": "https://github.com/Url-Tools/Url-Tools#readme"
+}
