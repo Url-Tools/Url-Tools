@@ -1,6 +1,6 @@
 {
   "name": "@jasonlandbridge/url-tools",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A collection of various url transformation tools",
   "main": "src/index.ts",
   "scripts": {
