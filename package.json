@@ -4,8 +4,10 @@
   "description": "A collection or url tools",
   "main": "src/index.ts",
   "scripts": {
+    "build": "tsc -p .",
     "test": "npm test"
   },
+  "types": "dist/index.d.ts",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Url-Tools/Url-Tools.git"
