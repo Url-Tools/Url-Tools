@@ -7,7 +7,7 @@ import { ParamsMap} from './params';
  * @prop {string} path - label is used for whatever reason
  * @field {string} prop is used for other reason
  */
-export type UrlMergeConfig = {
+export interface UrlMergeConfig {
   /**
    * A URL template that contains zero or more :params
    */

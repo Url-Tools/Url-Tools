@@ -1,10 +1,12 @@
 {
-  "name": "url-tools",
-  "version": "1.0.0",
-  "description": "A collection or url tools",
+  "name": "@jasonlandbridge/url-tools",
+  "version": "1.0.1",
+  "description": "A collection of various url transformation tools",
   "main": "src/index.ts",
   "scripts": {
     "build": "tsc -p .",
+    "prepublish": "npm run build",
+    "publish": "npm publish --access public",
     "test": "npm test"
   },
   "types": "dist/index.d.ts",
@@ -17,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/Url-Tools/Url-Tools/issues"
   },
-  "homepage": "https://github.com/Url-Tools/Url-Tools#readme"
+  "homepage": "https://github.com/Url-Tools/Url-Tools#readme",
+  "devDependencies": {
+    "typescript": "^4.8.4"
+  }
 }
