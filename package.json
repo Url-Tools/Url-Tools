@@ -2,20 +2,23 @@
   "name": "@jasonlandbridge/url-tools",
   "version": "1.0.3",
   "description": "A collection of various url transformation tools",
-  "main": "src/index.ts",
   "scripts": {
     "build": "tsc -p .",
     "prepublish": "npm run build",
     "publish": "np",
     "test": "jest"
   },
-  "types": "dist/index.d.ts",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Url-Tools/Url-Tools.git"
   },
   "author": "JasonLandbridge",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/Url-Tools/Url-Tools/issues"
   },

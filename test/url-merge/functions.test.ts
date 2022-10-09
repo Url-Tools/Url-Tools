@@ -1,11 +1,11 @@
-import {urlMerge} from "../../src";
+import {ParamsMap, urlMerge} from "../../src";
 
 describe('functions.ts', () => {
     test('should contain params when given 3 valid params', () => {
 
         // Arrange
         const baseUrl = "https://www.example.com/"
-        const params = {
+        const params: ParamsMap = {
             test1: "value1",
             test2: "value2",
             test3: "value3",
